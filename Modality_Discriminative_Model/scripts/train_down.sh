@@ -1,0 +1,14 @@
+python ../train.py \
+--gpu_ids 2 \
+--batch_size 8 \
+--checkpoints_dir /chwang/1_log/Modality_Discriminator_down \
+--workers 8 \
+--print_freq 1 \
+--save_epoch_freq 1 \
+--lr 0.0001 \
+--epoch_count 60 \
+--print_freq 1 \
+--cls_type resnet3d \
+--class_num 4 \
+--down_resolution \
+--name exp1
